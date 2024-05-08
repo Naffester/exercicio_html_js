@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML com JS</title>
+    <link rel="stylesheet" href="main.css">
+
+</head>
+<body>
+    <div class="conteiner">
+        <h1>Efetuar pagamento</h1>
+            <h2>Requisitos abaixo</h2>
+                <form id="form-pagamento">
+            <input type="text" id="Nome-Beneficiário" required placeholder="Insira seu nome completo">
+            <p class="error-message">O nome precisa ser completo</p>
+            <input type="number" id="numero-conta" required placeholder="Insira o numero da conta">
+            <input type="number" id="valor-pagamento" required placeholder="Insira o valor">
+            <button id="bnt-pagamento" type="submit">Efetuar o pagamento</button>
+
+                </form>
+                <p class="sucess-message"></p>
+    </div>
+        <script src="main.js"></script>
+
+</body>
+</html>
